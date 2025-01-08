@@ -1351,7 +1351,6 @@ strong {
   background: var(--white-color);
   border-radius: var(--border-radius-medium);
   position: relative;
-  overflow: hidden;
   padding: 45px;
 }
 
