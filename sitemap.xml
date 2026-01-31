@@ -4,12 +4,12 @@
     <loc>https://kingcleaning.de/</loc>
   </url>
   <!-- <url>
-    <loc>http://127.0.0.1:5500/about.html</loc>
+    <loc>https://kingcleaning.de/about.html</loc>
   </url> -->
   <url>
-    <loc>http://127.0.0.1:5500/formular.html</loc>
+    <loc>https://kingcleaning.de/formular.html</loc>
   </url>
   <url>
-    <loc>http://127.0.0.1:5500/contact.html</loc>
+    <loc>https://kingcleaning.de/contact.html</loc>
   </url>
 </urlset>
