@@ -1063,6 +1063,7 @@ strong {
   border-radius: var(--border-radius-small);
   position: relative;
   overflow: hidden;
+  max-height: 220px;
 }
 
 /* .services-image-wrap:hover .services-image-hover {
