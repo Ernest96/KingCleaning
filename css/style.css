@@ -888,9 +888,10 @@ strong {
   background-position: 80% 80%;
 }
 
-.about-banner-section {
+.about-navbar {
   background-image: none !important;
-  background-color: #272f3664;
+  background-color: #272f36be;
+  min-height: auto;
 }
 
 .banner-section {
@@ -1064,9 +1065,9 @@ strong {
   overflow: hidden;
 }
 
-.services-image-wrap:hover .services-image-hover {
+/* .services-image-wrap:hover .services-image-hover {
   opacity: 1;
-}
+} */
 
 .services-title-link {
   display: block;
@@ -1535,6 +1536,9 @@ strong {
   transform: translate3d(0, 100%, 0);
 }
 
+.team-section {
+  margin-top: 80px;
+}
 
 /*---------------------------------------
   RESPONSIVE STYLES               
