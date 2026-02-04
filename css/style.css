@@ -711,7 +711,7 @@ strong {
     pointer-events: auto;
   }
 
-  
+
 }
 
 .navbar-toggler {
@@ -1063,7 +1063,7 @@ strong {
   border-radius: var(--border-radius-small);
   position: relative;
   overflow: hidden;
-  max-height: 220px;
+height: 250px;
 }
 
 /* .services-image-wrap:hover .services-image-hover {
@@ -1081,6 +1081,7 @@ strong {
   /* aspect-ratio: 1;
   object-fit: cover; */
   height: 100%;
+  width: 100%;
   object-fit: cover;
   transition: all 0.5s;
 }
@@ -1104,6 +1105,11 @@ strong {
   left: 0;
   transition: opacity 0.5s;
   padding: 8px 12px;
+}
+
+.services-image-wrap a {
+  display: block;
+  height: 100%;
 }
 
 .services-icon-wrap .button--skoll {
@@ -1670,6 +1676,11 @@ strong {
 
 @media screen and (max-width: 767px) {
 
+  .services-image-wrap {
+    height: 240px;
+
+  }
+
   .custom-btn {
     font-size: 14px;
     padding: 10px 20px;
@@ -1679,8 +1690,7 @@ strong {
     bottom: 0;
   }
 
-  .team-info::before {
-  }
+  .team-info::before {}
 }
 
 
