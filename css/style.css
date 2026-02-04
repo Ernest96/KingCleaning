@@ -889,8 +889,8 @@ strong {
 }
 
 .about-banner-section {
-  background-image: url('../images/about.png') !important;
-
+  background-image: none !important;
+  background-color: #272f3682;
 }
 
 .banner-section {
