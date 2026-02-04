@@ -888,6 +888,11 @@ strong {
   background-position: 80% 80%;
 }
 
+.about-banner-section {
+  background-image: url('../images/about.png') !important;
+
+}
+
 .banner-section {
   background-image: url('../images/high-angle-woman-cleaning-floors.jpg');
 }
