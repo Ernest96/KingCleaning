@@ -22,7 +22,7 @@ Wenn Sie einen professionellen Reinigungskraft beauftragen, sich um Ihr Zuhause 
 
     <link href="css/magnific-popup.css" rel="stylesheet">
 
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style.css?v=3"rel="stylesheet">
 
     <link href="css/fontawesome.css" rel="stylesheet">
 
@@ -105,7 +105,7 @@ Wenn Sie einen professionellen Reinigungskraft beauftragen, sich um Ihr Zuhause 
                         <a class="nav-link" href="contact.html">Kontakt</a>
                     </li>
 
-                    <li class="nav-item ms-3">
+                    <li class="nav-item">
                         <a class="nav-link custom-btn custom-border-btn custom-btn-bg-white btn"
                             href="formular.html">Bestellung</a>
                     </li>
@@ -345,7 +345,7 @@ Wenn Sie einen professionellen Reinigungskraft beauftragen, sich um Ihr Zuhause 
                                             </div>
 
                                             <a href="services-detail.html"
-                                                class="custom-btn btn button button--atlas mt-2 ms-auto">
+                                                class="custom-btn btn button   mt-2 ms-auto">
                                                 <span>Mehr erfahren</span>
 
                                                 <div class="marquee" aria-hidden="true">
@@ -410,7 +410,7 @@ Wenn Sie einen professionellen Reinigungskraft beauftragen, sich um Ihr Zuhause 
                                             </div>
 
                                             <a href="service-detail-geschaft.html"
-                                                class="custom-btn btn button button--atlas mt-2 ms-auto">
+                                                class="custom-btn btn button   mt-2 ms-auto">
                                                 <span>Mehr erfahren</span>
 
                                                 <div class="marquee" aria-hidden="true">
@@ -466,21 +466,46 @@ Wenn Sie einen professionellen Reinigungskraft beauftragen, sich um Ihr Zuhause 
             </div>
         </section> -->
     </main>
-
-    <footer class="site-footer">
+<footer class="site-footer">
 
         <div class="site-footer-bottom text-center">
-            <a class="" href="mailto:kingcleaning1vip@gmail.com">kingcleaning1vip@gmail.com</a>
-            <br/><br/>
-            <a target="_blank" href="https://www.facebook.com/profile.php?id=61571408464257"><i class="fa-brands fa-facebook"></i></a>
-            &nbsp;
-            <a target="_blank" href="https://www.instagram.com/kingc.leaning1/?igsh=MTczdDF0eDh0cGRnaw%3D%3D#"><i class="fa-brands fa-instagram"></i></a>
-            <br/><br/>
-            <p id="data"> King-Cleaning</p>
+
+            <!-- Social media -->
+            <div class="mb-3">
+                <a class="me-3" target="_blank" href="https://www.facebook.com/profile.php?id=61571408464257">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a target="_blank" href="https://www.instagram.com/kingc.leaning1/?igsh=MTczdDF0eDh0cGRnaw%3D%3D#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>
+
+            <!-- Legal links -->
+            <div class="mb-2">
+                <a href="./impressum.html">Impressum</a>
+                <span class="mx-2 white">|</span>
+                <a href="./terms.html">Datenschutz</a>
+            </div>
+
+            <!-- Cookies notice -->
+            <p class="small text-muted mb-3">
+                Diese Website verwendet keine Cookies.
+            </p>
+
+            <!-- Contact -->
+            <div class="mb-2">
+                <a href="mailto:kingcleaning1vip@gmail.com">
+                    kingcleaning1vip@gmail.com
+                </a>
+            </div>
+
+            <!-- Brand -->
+            <p id="data" class="mb-0">
+                King-Cleaning
+            </p>
         </div>
 
     </footer>
-
     <!-- JAVASCRIPT FILES -->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -493,26 +518,7 @@ Wenn Sie einen professionellen Reinigungskraft beauftragen, sich um Ihr Zuhause 
     <script src="js/custom.js"></script>
 
 
-    <script>
-        function data() {
-            var div;
-            var date = new Date();
-            var an, luna, zi;
-            var text;
 
-            an = date.getFullYear();
-            luna = date.getMonth() + 1;
-            zi = date.getDate();
-            text = zi + "." + luna + "." + an;
-
-            div = document.getElementById("data");
-            if (div) {
-                div.innerHTML = "  ®Copyright" + " " + "King-Cleaning" + " " + text;
-            }
-        }
-
-        data(); // Apel direct în loc de window.onload
-    </script>
 
 </body>
 

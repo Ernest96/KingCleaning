@@ -1,5 +1,3 @@
-
-
 @font-face {
   font-family: "Poppins";
   src: url("../fonts/Poppins-Regular.ttf") format("truetype");
@@ -12,41 +10,41 @@
   CUSTOM PROPERTIES ( VARIABLES )             
 -----------------------------------------*/
 :root {
-  --white-color:                  #ffffff;
-  --primary-color:                #272f36;
-  --secondary-color:              #36475e;
-  --section-bg-color:             #f0f8ff;
-  --custom-btn-bg-color:          #4f83d1;
-  --custom-btn-bg-hover-color:    #7cb8eb;
-  --dark-color:                   #000000;
-  --p-color:                      #717275;
-  --border-color:                 #e9eaeb;
-  --link-hover-color:             #4f83d1;
+  --white-color: #ffffff;
+  --primary-color: #272f36;
+  --secondary-color: #36475e;
+  --section-bg-color: #f0f8ff;
+  --custom-btn-bg-color: #4f83d1;
+  --custom-btn-bg-hover-color: #7cb8eb;
+  --dark-color: #000000;
+  --p-color: #717275;
+  --border-color: #e9eaeb;
+  --link-hover-color: #4f83d1;
 
-  --body-font-family:             'Poppins', sans-serif;
+  --body-font-family: 'Poppins', sans-serif;
 
-  --h1-font-size:                 52px;
-  --h2-font-size:                 46px;
-  --h3-font-size:                 32px;
-  --h4-font-size:                 28px;
-  --h5-font-size:                 24px;
-  --h6-font-size:                 22px;
-  --p-font-size:                  16px;
-  --btn-font-size:                18px;
-  --copyright-font-size:          14px;
+  --h1-font-size: 52px;
+  --h2-font-size: 46px;
+  --h3-font-size: 32px;
+  --h4-font-size: 28px;
+  --h5-font-size: 24px;
+  --h6-font-size: 22px;
+  --p-font-size: 16px;
+  --btn-font-size: 18px;
+  --copyright-font-size: 14px;
 
-  --border-radius-large:          100px;
-  --border-radius-medium:         20px;
-  --border-radius-small:          10px;
+  --border-radius-large: 100px;
+  --border-radius-medium: 20px;
+  --border-radius-small: 10px;
 
-  --font-weight-normal:           400;
-  --font-weight-medium:           500;
-  --font-weight-bold:             700;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
 }
 
 body {
-  background-color: var(--white-color);
-  font-family: var(--body-font-family); 
+  background-color: var(--section-bg-color);
+  font-family: var(--body-font-family);
 }
 
 
@@ -109,7 +107,7 @@ ul li {
   font-weight: var(--font-weight-normal);
 }
 
-a, 
+a,
 button {
   touch-action: manipulation;
   transition: all 0.3s;
@@ -163,12 +161,13 @@ strong {
   opacity: 0.85;
 }
 
-.section-overlay + .container {
+.section-overlay+.container {
   position: relative;
 }
- .center{
+
+.center {
   text-align: center;
- }
+}
 
 /*---------------------------------------
   ANIMATED HEADLINE               
@@ -237,13 +236,16 @@ strong {
   0% {
     opacity: 0;
   }
+
   35% {
 
     opacity: 0;
   }
+
   65% {
     opacity: 0;
   }
+
   100% {
 
     opacity: 1;
@@ -254,12 +256,15 @@ strong {
   0% {
     opacity: 0;
   }
+
   35% {
     opacity: 0;
   }
+
   65% {
     opacity: 0;
   }
+
   100% {
 
     opacity: 1;
@@ -268,18 +273,21 @@ strong {
 
 @keyframes cd-rotate-1-in {
   0% {
-    
+
     opacity: 0;
   }
+
   35% {
-    
+
     opacity: 0;
   }
+
   65% {
     opacity: 0;
   }
+
   100% {
-   
+
     opacity: 1;
   }
 }
@@ -288,12 +296,15 @@ strong {
   0% {
     opacity: 1;
   }
+
   35% {
     opacity: 1;
   }
+
   65% {
     opacity: 0;
   }
+
   100% {
     opacity: 0;
   }
@@ -303,12 +314,15 @@ strong {
   0% {
     opacity: 1;
   }
+
   35% {
     opacity: 1;
   }
+
   65% {
     opacity: 0;
   }
+
   100% {
     opacity: 0;
   }
@@ -318,12 +332,15 @@ strong {
   0% {
     opacity: 1;
   }
+
   35% {
     opacity: 1;
   }
+
   65% {
     opacity: 0;
   }
+
   100% {
     opacity: 0;
   }
@@ -409,13 +426,14 @@ strong {
 }
 
 
-.button--atlas > span {
+.button--atlas>span {
   display: inline-block;
 }
 
-.button--atlas:hover > span {
+.button--atlas:hover>span {
   opacity: 0;
 }
+
 .marquee {
   position: absolute;
   top: 0;
@@ -449,7 +467,7 @@ strong {
   white-space: nowrap;
   font-style: italic;
   padding: 15px;
- 
+
 }
 
 @keyframes marquee {
@@ -477,8 +495,8 @@ strong {
 
 .button--pan:hover::before {
   background: transparent;
-  transform: translate3d(0,-100%,0);
- 
+  transform: translate3d(0, -100%, 0);
+
 }
 
 
@@ -619,7 +637,7 @@ strong {
   padding-bottom: 15px;
 }
 
-.navbar-nav .nav-link.active, 
+.navbar-nav .nav-link.active,
 .navbar-nav .nav-link:hover {
   background: transparent;
   color: rgb(246, 231, 27);
@@ -627,7 +645,7 @@ strong {
 
 .dropdown-menu {
   background: var(--white-color);
-  box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
   border: 0;
   display: inherit;
   opacity: 0;
@@ -660,9 +678,9 @@ strong {
   padding-bottom: 7px;
 }
 
-.dropdown-item.active, 
+.dropdown-item.active,
 .dropdown-item:active,
-.dropdown-item:focus, 
+.dropdown-item:focus,
 .dropdown-item:hover {
   background: transparent;
   color: var(--primary-color);
@@ -692,6 +710,8 @@ strong {
     margin-top: 0;
     pointer-events: auto;
   }
+
+  
 }
 
 .navbar-toggler {
@@ -838,8 +858,13 @@ strong {
 /*---------------------------------------
   BANNER        
 -----------------------------------------*/
-.banner-section, .garten, .geschaft, .mobel, .covor, .fenster{
- 
+.banner-section,
+.garten,
+.geschaft,
+.mobel,
+.covor,
+.fenster {
+
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -849,28 +874,48 @@ strong {
   padding-top: 100px;
   padding-bottom: 50px;
 }
+
+.white {
+  color: white;
+}
+
+.privacy-banner-section {
+  background-image: url('../images/privacy.png') !important;
+}
+
+.impressum-banner-section {
+  background-image: url('../images/impressum.png') !important;
+  background-position: 80% 80%;
+}
+
 .banner-section {
   background-image: url('../images/high-angle-woman-cleaning-floors.jpg');
 }
+
 .garten {
   background-image: url('../images/services/garten.jpg');
 
 }
+
 .fenster {
   background-image: url('../images/services/geam2.jpeg');
 
 }
-.covor{
+
+.covor {
   background-image: url('../images/services/mocheta.jpg');
 
 }
+
 .geschaft {
   background-image: url('../images/services/geschaft.jpg');
 
 }
-.mobel{
+
+.mobel {
   background-image: url('../images/services/mobel.jpg');
 }
+
 .banner-section .breadcrumb {
   margin-bottom: 0;
 }
@@ -1024,9 +1069,11 @@ strong {
 
 .services-image,
 .team-image {
-  border-radius: var(--border-radius-small);
+  border-radius: var(--border-radius-medium);
   display: block;
-  aspect-ratio: 1;
+  /* aspect-ratio: 1;
+  object-fit: cover; */
+  height: 100%;
   object-fit: cover;
   transition: all 0.5s;
 }
@@ -1197,13 +1244,22 @@ strong {
   padding-right: 0;
 }
 
-.form-check-group-donation-frequency + .form-check-group-donation-frequency {
+.form-check-group-donation-frequency+.form-check-group-donation-frequency {
   padding-right: 12px;
   padding-left: 0;
 }
 
 .form-check-group-donation-frequency .form-check-label {
   font-weight: var(--font-weight-medium);
+}
+
+#privacy-checkbox {
+  width: 17px;
+  height: 17px;
+}
+
+.blue-a {
+  color: rgb(39, 103, 230);
 }
 
 #DonationFrequencyOne {
@@ -1253,9 +1309,9 @@ strong {
   background-image: none;
 }
 
-.form-check-radio .form-check-input:checked[type=radio] + .form-check-label,
-.form-check-radio .form-check-input:hover + .form-check-label,
-.form-check-radio .form-check-input:checked + .form-check-label {
+.form-check-radio .form-check-input:checked[type=radio]+.form-check-label,
+.form-check-radio .form-check-input:hover+.form-check-label,
+.form-check-radio .form-check-input:checked+.form-check-label {
   color: var(--white-color);
 }
 
@@ -1338,7 +1394,8 @@ strong {
 }
 
 #data {
-  color: rgb(255, 255, 255); /* Asigură-te că textul este vizibil */
+  color: rgb(255, 255, 255);
+  /* Asigură-te că textul este vizibil */
   font-size: 16px;
 }
 
@@ -1372,11 +1429,11 @@ strong {
 }
 
 .site-footer-bottom a {
-	color: var(--white-color);
+  color: var(--white-color);
 }
 
 .site-footer-bottom a:hover {
-	color: var(--link-hover-color);
+  color: var(--link-hover-color);
 }
 
 
@@ -1449,11 +1506,11 @@ strong {
   position: relative;
 }
 
-.button--skoll > span {
+.button--skoll>span {
   overflow: hidden;
 }
 
-.button--skoll:hover > span > span {
+.button--skoll:hover>span>span {
   animation: MoveUpInitial 0.2s forwards, MoveUpEnd 0.2s forwards 0.2s;
 }
 
@@ -1464,13 +1521,13 @@ strong {
   height: 0;
   padding-bottom: 100%;
   border-radius: 50%;
-  transform: translate3d(0,0,0);
+  transform: translate3d(0, 0, 0);
   transition: transform 0.3s;
   transition-timing-function: cubic-bezier(0.7, 0, 0.2, 1);
 }
 
 .button--skoll:hover::before {
-  transform: translate3d(0,100%,0);
+  transform: translate3d(0, 100%, 0);
 }
 
 
@@ -1481,6 +1538,15 @@ strong {
   .intro-section {
     padding-top: 0;
   }
+}
+
+
+@media screen and (max-width: 1198px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    margin: 10px;
+    padding: 0;
+  }
+
 }
 
 @media screen and (max-width: 991px) {
@@ -1560,9 +1626,10 @@ strong {
   .custom-block-wrap .custom-block {
     right: 5px;
   }
-.custom-block{
-  padding: 15px;
-}
+
+  .custom-block {
+    padding: 15px;
+  }
 
   .site-footer {
     padding-top: 0px;
@@ -1581,6 +1648,14 @@ strong {
     margin-top: 10px;
     margin-bottom: 10px;
   }
+
+  .team-image {
+    width: auto;
+    max-height: 400px;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -1595,16 +1670,9 @@ strong {
   }
 
   .team-info::before {
-    border-top: 0;
-    border-bottom: 20px solid var(--white-color);
-    border-left: 20px solid transparent;
-    border-right: 20px solid transparent;
-    top: -20px;
-    bottom: auto;
-    right: 0;
-    left: 0;
   }
 }
+
 
 @media screen and (max-width: 480px) {
   h1 {
@@ -1627,4 +1695,3 @@ strong {
     font-size: 16px;
   }
 }
-
